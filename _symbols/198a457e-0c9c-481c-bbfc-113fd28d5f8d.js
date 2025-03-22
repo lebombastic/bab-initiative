@@ -818,21 +818,21 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h1, "class", "svelte-1xna2m7");
-			attr(p0, "class", "subtitle svelte-1xna2m7");
-			attr(header, "class", "svelte-1xna2m7");
-			if (!src_url_equal(img.src, img_src_value = /*image*/ ctx[0])) attr(img, "src", img_src_value);
+			attr(h1, "class", "svelte-1ndvfe3");
+			attr(p0, "class", "subtitle svelte-1ndvfe3");
+			attr(header, "class", "svelte-1ndvfe3");
+			if (!src_url_equal(img.src, img_src_value = /*image*/ ctx[0].url)) attr(img, "src", img_src_value);
 			attr(img, "alt", "Churchtown Primary School");
-			attr(img, "class", "main-image svelte-1xna2m7");
-			attr(div0, "class", "image-container svelte-1xna2m7");
-			attr(h20, "class", "svelte-1xna2m7");
-			attr(p1, "class", "svelte-1xna2m7");
-			attr(div1, "class", "progress-stats svelte-1xna2m7");
-			attr(div2, "class", "progress-bar svelte-1xna2m7");
+			attr(img, "class", "main-image svelte-1ndvfe3");
+			attr(div0, "class", "image-container svelte-1ndvfe3");
+			attr(h20, "class", "svelte-1ndvfe3");
+			attr(p1, "class", "svelte-1ndvfe3");
+			attr(div1, "class", "progress-stats svelte-1ndvfe3");
+			attr(div2, "class", "progress-bar svelte-1ndvfe3");
 			set_style(div2, "width", /*percentageRaised*/ ctx[1] + "%");
-			attr(div3, "class", "progress-container svelte-1xna2m7");
-			attr(p2, "class", "donors svelte-1xna2m7");
-			attr(div4, "class", "progress-section svelte-1xna2m7");
+			attr(div3, "class", "progress-container svelte-1ndvfe3");
+			attr(p2, "class", "donors svelte-1ndvfe3");
+			attr(div4, "class", "progress-section svelte-1ndvfe3");
 			attr(input0, "type", "hidden");
 			attr(input0, "name", "business");
 			input0.value = "schoolfund@example.com";
@@ -843,18 +843,18 @@ function create_fragment(ctx) {
 			attr(input2, "name", "currency_code");
 			input2.value = "GBP";
 			attr(button0, "type", "submit");
-			attr(button0, "class", "donate-button svelte-1xna2m7");
+			attr(button0, "class", "donate-button svelte-1ndvfe3");
 			attr(form, "action", "https://www.paypal.com/donate");
 			attr(form, "method", "post");
 			attr(form, "target", "_blank");
-			attr(div5, "class", "donation-section svelte-1xna2m7");
-			attr(div6, "class", "info-section svelte-1xna2m7");
-			attr(button1, "class", "whatsapp-button svelte-1xna2m7");
+			attr(div5, "class", "donation-section svelte-1ndvfe3");
+			attr(div6, "class", "info-section svelte-1ndvfe3");
+			attr(button1, "class", "whatsapp-button svelte-1ndvfe3");
 			attr(a, "href", "mailto:fundraising@churchtownprimary.example");
-			attr(a, "class", "svelte-1xna2m7");
-			attr(p7, "class", "email svelte-1xna2m7");
-			attr(div7, "class", "contact-section svelte-1xna2m7");
-			attr(div8, "class", "container svelte-1xna2m7");
+			attr(a, "class", "svelte-1ndvfe3");
+			attr(p7, "class", "email svelte-1ndvfe3");
+			attr(div7, "class", "contact-section svelte-1ndvfe3");
+			attr(div8, "class", "container svelte-1ndvfe3");
 		},
 		m(target, anchor) {
 			insert_hydration(target, main, anchor);
@@ -934,7 +934,7 @@ function create_fragment(ctx) {
 			}
 		},
 		p(ctx, [dirty]) {
-			if (dirty & /*image*/ 1 && !src_url_equal(img.src, img_src_value = /*image*/ ctx[0])) {
+			if (dirty & /*image*/ 1 && !src_url_equal(img.src, img_src_value = /*image*/ ctx[0].url)) {
 				attr(img, "src", img_src_value);
 			}
 		},
